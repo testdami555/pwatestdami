@@ -1,0 +1,9 @@
+body{
+  background-color: lightblue;
+  text-align: center;
+}
+
+#logo{
+  width: 256px;
+  border-radius:50%;
+}

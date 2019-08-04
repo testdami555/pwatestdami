@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi PWA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="manifest.json">
+  <meta name="google" content="notranslate">
+  <style>
+  		body{background-color: gold;}
+  </style>
+</head>
+<body>
+    <h1>Prueba de PWA</h1>
+    <p>Pagina para instalar la PWA</p>
+</body>
+  <script>
+      if('serviceWorker' in navigator){
+        navigator.serviceWorker.register('sw.js');
+      }
+  </script>
+</html>
