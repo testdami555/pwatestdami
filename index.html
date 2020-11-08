@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Mi PWA</title>
-  <link rel="icon" href="favicon.png" sizes="32x32" type="image/png">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="manifest" href="manifest.json">
-  <meta name="google" content="notranslate">
-  <link rel="stylesheet" href="index.css">  
-</head>
-<body>
-    <h1>Un ejemplo de PWA by <a href="https://damiandeluca.com.ar">@damiande</a></h1>    
-    <img src="logo.png" alt="Logo" title="Logo" id="logo">
-    <p>Este es un párrafo de prueba de una PWA by <strong>@damiande</strong></p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mi PWA</title>
+    <link rel="icon" href="favicon.png" sizes="32x32" type="image/png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="google" content="notranslate" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>
+      Un perfecto ejemplo de PWA by
+      <a href="https://damiandeluca.com.ar">@damiande</a>
+    </h1>
+    <img src="logo.png" alt="Logo" title="Logo" id="logo" />
+    <p>
+      Este es un gran párrafo de prueba de una PWA by
+      <strong>@damiande</strong>.
+    </p>
+  </body>
   <script>
-      if('serviceWorker' in navigator){
-        navigator.serviceWorker.register('sw.js');
-      }
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("sw.js");
+    }
   </script>
 </html>
